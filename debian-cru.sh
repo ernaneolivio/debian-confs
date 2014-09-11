@@ -2,13 +2,13 @@
 #
 # Script de pós-instalação Debian 7.0 aka Wheezy
 #
-# Autor 		:   Ernane Olivio <ernane.olivio@gmail.com>
-# Nome  		:	debian_raw.sh
-# Descrição 	:	Instalação CRUA do Debian Server
-# Data 			:	2014/09
-# Versão 		:	1.0
-# Licença		:	BSD
-# Sobre			:   Cria uma instalação com requisítos mínimos de segurança do Debian para ser utilizada em ambiente de produção.
+# Autor 	: Ernane Olivio <ernane.olivio@gmail.com>
+# Nome  	: debian-cru.sh
+# Descrição	: Instalação CRUA do Debian Server
+# Data 		: 2014/09
+# Versão	: 1.0
+# Licenç	: BSD
+# Sobre		: Cria instalação com requisítos mínimos de segurança do Debian para ser utilizada em ambiente de produção.
 #
 #
 ###
@@ -90,5 +90,3 @@ aptitude -y install $PACOTES
                
 # Python app environment
 #apt-get -y install python-dev python-dev python-setuptools python-virtualenv
-
-# Ruby app environment
